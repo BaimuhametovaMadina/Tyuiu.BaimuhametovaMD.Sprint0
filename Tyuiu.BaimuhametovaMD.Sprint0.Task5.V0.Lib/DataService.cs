@@ -18,6 +18,7 @@
         {
             if (b==0)
             {
+                Console.WriteLine("Переменная b = {0}, на 0 делить нельзя", b);
                 return -1;
             }
             else
