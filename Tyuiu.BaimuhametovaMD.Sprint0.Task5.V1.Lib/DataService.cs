@@ -16,7 +16,7 @@
         }
         public static int Division(int a, int b)
         {
-            if (b==0)
+            if (b == 0)
             {
                 Console.WriteLine("Переменная b = {0}, на 0 делить нельзя", b);
                 return -1;
