@@ -11,14 +11,14 @@ namespace Tyuiu.BaimuhametovaMD.Sprint0.Task5.V1.Test
             Assert.AreEqual(10, DataService.Addition(5, 5));
         }
         [TestMethod]
-        public void CheckedSubstracionValid()
+        public void CheckedSubstractionValid()
         {
             Assert.AreEqual(5, DataService.Substraction(10, 5));
         }
         [TestMethod]
         public void CheckedMultiplicationValid()
         {
-            Assert.AreEqual(50, DataService.Multiplication(5, 10));
+            Assert.AreEqual(50, DataService.Multiplication(10, 5));
         }
         [TestMethod]
         public void CheckedDivisionValid()
