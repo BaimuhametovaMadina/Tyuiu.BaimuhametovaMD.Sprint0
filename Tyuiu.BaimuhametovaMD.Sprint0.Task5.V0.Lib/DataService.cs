@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.BaimuhametovaMD.Sprint0.Task5.V1.Lib
+﻿namespace Tyuiu.BaimuhametovaMD.Sprint0.Task5.V0.Lib
 {
     public class DataService
     {
@@ -14,9 +14,9 @@
         {
             return a * b;
         }
-        public static int Division(int a, int b)
+        public static double Division(int a, int b)
         {
-            if (b==0)
+            if (b == 0)
             {
                 Console.WriteLine("Переменная b = {0}, на 0 делить нельзя", b);
                 return -1;
